@@ -13,6 +13,9 @@
 	transition: all 0.5s;
 }
 
+.container {
+	
+}
 /* ANIMATED X */
 .navbar-toggle.x .icon-bar:nth-of-type(1) {
 	-webkit-transform: rotate(45deg);
@@ -98,7 +101,7 @@
 span {
   font-family:helvetica;
   font-weight:100;
-  color:#ff8c69;
+  color:coral;
 }
 a {
   font-family:helvetica;
@@ -109,4 +112,52 @@ i {
   color:#ff8c69;
   font-size:1em;
   padding-right:0.4em;
+}
+
+
+
+  
+  
+  .jumbotron-fluid {
+	background-image: url("images/peter-nguyen-128493-unsplash.jpg")!important;
+	padding-right: 0;
+	padding-left: 0;
+	border-radius: 0;
+	background-color: rgb(0, 0, 0);
+  }
+
+
+.jumbotron {
+	background-image: url("images/peter-nguyen-128493-unsplash.jpg")!important;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-family: Helvetica, Arial,  sans-serif;
+	background-size: cover;
+	
+	
+}
+
+@media (min-width: 576px) {
+	.jumbotron {
+	  padding: 4rem 2rem;
+	}
+  }
+
+.jumbotron h1 {
+	font-family: Helvetica, Arial,  sans-serif;
+	font-weight: 100;
+	color: coral;
+	font-size: 2em;
+	
+}
+
+.btn-custom {
+	background-color: #381103;
+}
+.row {
+	background-image: url(images/peter-nguyen-128493-unsplash.jpg);
+}
+.bg {
+	background-color: #ff8c69;
+	background-image: url("arc.jpg")!important;
 }
