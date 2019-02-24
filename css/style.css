@@ -13,6 +13,9 @@
 	transition: all 0.5s;
 }
 
+.navbar-toggle{
+	margin-top: 20px;
+}
 
 /* ANIMATED X */
 .navbar-toggle.x .icon-bar:nth-of-type(1) {
@@ -60,6 +63,7 @@
 
 .pen .navbar-header {
 	float: none;
+	height: 72px;;
 }
 
 .pen .navbar-toggle {
@@ -95,6 +99,7 @@
 
 .pen .navbar-brand {
   font-size:24px;
+  font-weight: 400;
 }
 
 .pen .navbar-nav > li > a {
@@ -123,7 +128,9 @@
 span {
   font-family:helvetica;
   font-weight:100;
-  color:#e70d0d
+  color:#e70d0d;
+  font-stretch: 4px;
+  
 }
 a {
   font-family:helvetica;
@@ -265,7 +272,6 @@ body {
 @media only screen and (max-width: 900px){
 .jumbotron {
 	padding: 4rem 2rem;
-	background-color: #e70d0d;
 	}
 	.jumbotron h1 {
 		font-family: 'Major Mono Display', monospace;
@@ -287,8 +293,9 @@ body {
 /* style carte.html */
 
 #carte .jumbotron {
-	background-image: url("../images/christiann-koepke-386015-unsplash.jpg");
-	background-position: 30% 60%;
+	background-image: url("../images/chopsticks-close-up-cuisine-271715.jpg");
+	background-position: 20% 60%;
+	background-size: 100%;
 }
 
 #carte .glyphicon-leaf:before {
@@ -299,7 +306,9 @@ body {
 
 #photos .jumbotron {
 	background-image: url("../images/filippo-andolfatto-456053-unsplash.jpg");
-	background-position: 30% 60%;
+	background-position: 30% 20%;
+	background-size: 100%;
+	background-clip: border-box;
 }
 
 #photos .glyphicon-picture:before {
@@ -310,7 +319,7 @@ body {
 /* style restaurants.html */
 
 #restaurants .jumbotron {
-	background-image: url("../images/hermes-rivera-1183573-unsplash.jpg");
+	background-image: url("../images/chopsticks-close-up-cuisine-271715.jpg");
 	background-position: 30% 60%;
 }
 
