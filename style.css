@@ -96,6 +96,30 @@
 .pen .navbar-brand {
   font-size:24px;
 }
+
+.pen .navbar-nav > li > a {
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+}
+.glyphicon {
+    color: #9c5554;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-right: 5px;
+}
+
+
+
+
 span {
   font-family:helvetica;
   font-weight:100;
@@ -132,41 +156,59 @@ body {
 
 
 .jumbotron {
-	background-image: url("images/arc.jpg")!important;
+	background-image: url("images/nick-karvounis-72018-unsplash.jpg")!important;
 	/* background-color: rgb(0, 0, 0); */
 	color: rgb(255, 255, 255);
 	font-family: Helvetica, Arial,  sans-serif;
 	background-size:100%;
 	background-blend-mode:;
 	background-repeat: no-repeat;
-	background-position: 20% 40%;
-	height: 300px;
-	
-	
+	background-position: 0% 100%;
+	height: 250px;
 }
 
-@media (min-width: 576px) {
+.display-4 {
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 900px){
 	.jumbotron {
 	  padding: 4rem 2rem;
+	  background-color: #e70d0d;
+	}
+	.jumbotron h1 {
+		font-family: 'Major Mono Display', monospace;
+		font-weight: 900;
+		color: #e70d0d;
+		text-transform: lowercase;
+		font-size: 0.5em;
+		margin-top: 50px;
+		/* background-color:#ffffff9F; */
+		text-align: left;
+		margin-left: 5px;
+		background-color:#ffffffc4;
+		background-size: 30%;
+		width: 40%;
+		padding: 10px;
 	}
   }
 
-.jumbotron h1 {
-	font-family: 'Major Mono Display', monospace;
-	font-weight: 100;
-	color: #a22a2b;
-	text-transform: lowercase;
-	font-size: 1.5em;
-	margin-top: 50px;
-	/* background-color:#ffffff9F; */
-	text-align: left;
-	margin-left: 5px;
-	
+  .jumbotron h1 {
+   
+    color: #ffffff;
+    
+    font-size: 2em;
+    
+    text-align: center;
+   
+    background-size: 11%;
+    
 }
 
 .jumbotron p {
-	color: black;
-	/* background-color:#ffffff9F; */
+	color: rgb(2, 2, 2);
+	background-color:#ffffff9F;
 	font-size: 1em;
 	text-align: right;
 	margin-right: 50px;
