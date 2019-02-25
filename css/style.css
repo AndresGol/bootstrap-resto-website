@@ -14,7 +14,7 @@
 }
 
 .navbar-toggle{
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 /* ANIMATED X */
@@ -63,7 +63,11 @@
 
 .pen .navbar-header {
 	float: none;
-	height: 72px;;
+	height: 118px;
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #222222); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .pen .navbar-toggle {
@@ -100,7 +104,10 @@
 .pen .navbar-brand {
   font-size:24px;
   font-weight: 400;
+  color: #bebebe;
+
 }
+
 
 .pen .navbar-nav > li > a {
     font-weight: 100;
@@ -130,6 +137,8 @@ span {
   font-weight:100;
   color:#e70d0d;
   font-stretch: 4px;
+	font-size: 24px;
+	
   
 }
 a {
@@ -228,9 +237,36 @@ body {
     box-shadow: 0 1px 1px rgba(0,0,0,0.05);
 }
 
+.panel p {
+    font-size: 20px;
+    text-align: justify;
+	color: #a09d9d;
+	
+}
+
+.panel h2 {
+	font-size: 40px;
+	color: #c6c6c6;
+}
+
 
 .btn-custom {
-	background-color: #381103;
+	font-size: 20px;
+	font-weight: 100;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	color: #f0efef;
+	background-color: transparent;
+	border: 1px solid #bebebe;
+	transition: all 1s;
+	
+}
+
+.btn-custom:hover {
+	background-color: #ee003b;
+	color: #f0efef;
+	border: 1px solid #ee003b;
 	
 }
 
@@ -299,7 +335,7 @@ body {
 }
 
 #carte .glyphicon-leaf:before {
-    color: #e70d0d;
+    color: #ee003b;
     content: "\e103";
 }
   /* style photos.html */
@@ -312,7 +348,7 @@ body {
 }
 
 #photos .glyphicon-picture:before {
-    color: #e70d0d;
+    color: #ee003b;
     content: "\e103";
 }
 
@@ -324,7 +360,7 @@ body {
 }
 
 #restaurants .glyphicon-map-marker:before {
-    color: #e70d0d;
+    color: #ee003b;
     content: "\e103";
 }
 
@@ -337,7 +373,7 @@ body {
 
 #contact .glyphicon-send:before {
 	content: "\e171";
-	color: #e70d0d;
+	color: #ee003b;
 }
 
 
