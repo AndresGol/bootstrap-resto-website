@@ -201,31 +201,23 @@ body {
 
 
 
-
-  .jumbotron h1 {
-   
+.jumbotron h1 {
     color: #ffffff;
-    
-    font-size: 2em;
-    
+    font-size: 3em;
     text-align: center;
     width: 28%;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid orange; /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	letter-spacing: .05em; /* Adjust as needed */
-	animation: 
-	typing 2.5s steps(30, end),
-	blink-caret 0.75s step-end infinite;
-
-    
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
 	from { width: 0% ;
-	opacity: 0;}
+	opacity: 1;}
 	to { width: 30%;
 	opacity: 1; }
   }
@@ -283,8 +275,11 @@ body {
 }
 
 .panel h2 {
-	font-size: 40px;
+	font-size: 1.5em;
 	color: #c6c6c6;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-left: 30px;
 }
 
 
@@ -350,7 +345,7 @@ body {
 		font-weight: 100;
 		color: #200808;
 		text-transform: lowercase;
-		font-size: 3em;
+		font-size: 1em;
 		margin-top: 50px; 
 	
 		text-align: center;
@@ -368,6 +363,11 @@ body {
 	background-image: url("../images/chopsticks-close-up-cuisine-271715.jpg");
 	background-position: 20% 60%;
 	background-size: 100%;
+	font-size: 1.5em;
+	
+}
+#carte h1 {
+	width: 45%;
 }
 
 #carte .glyphicon-leaf:before {
@@ -381,6 +381,7 @@ body {
 	background-position: 30% 20%;
 	background-size: 100%;
 	background-clip: border-box; 
+	font-size: 2em;
 	
 	
 }
@@ -411,6 +412,8 @@ body {
 	background-image: url("../images/chopsticks-close-up-cuisine-271715.jpg");
 	background-position: 30% 60%;
 }
+
+
 
 #restaurants .glyphicon-map-marker:before {
     color: #ee003b;
