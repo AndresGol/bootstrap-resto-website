@@ -335,7 +335,7 @@ body {
     min-height: 100vh;
     padding: 0;
     text-align: justify;
-    background-image: url("https://carrd.co/assets/images/bg.svg"),linear-gradient(180deg,  #2c0404 35%,rgb(10, 1, 9) 65%);
+    background-image: url("https://carrd.co/assets/images/bg.svg"),linear-gradient(360deg,  #2c0404 35%,rgb(19, 0, 16) 65%);
     background-size: cover, cover;
     background-position: top, center;
     background-repeat: no-repeat, no-repeat;
@@ -344,18 +344,16 @@ body {
 
 
 @media only screen and (max-width: 900px){
-.jumbotron {
-	padding: 4rem 2rem;
-	}
+
 	.jumbotron h1 {
 		font-family: 'Major Mono Display', monospace;
-		font-weight: 900;
-		color: #e70d0d;
+		font-weight: 100;
+		color: #200808;
 		text-transform: lowercase;
-		font-size: 0.5em;
-		margin-top: 50px;
-		/* background-color:#ffffff9F; */
-		text-align: left;
+		font-size: 3em;
+		margin-top: 50px; 
+	
+		text-align: center;
 		margin-left: 5px;
 		background-color:#ffffffc4;
 		background-size: 30%;
@@ -382,12 +380,29 @@ body {
 	background-image: url("../images/filippo-andolfatto-456053-unsplash.jpg");
 	background-position: 30% 20%;
 	background-size: 100%;
-	background-clip: border-box;
+	background-clip: border-box; 
+	
+	
 }
 
 #photos .glyphicon-picture:before {
     color: #ee003b;
     content: "\e060";
+}
+
+#photos h1 {
+	
+		color: #ffffff;
+		font-size: 2em;
+		text-align: center;
+		width: 60%;
+		overflow: hidden;
+		border-right: .15em solid orange;
+		white-space: nowrap;
+		margin: 0 auto;
+		letter-spacing: .05em;
+		animation: typing 3.5s steps(10, end), blink-caret 0.75s step-end infinite;
+	
 }
 
 /* style restaurants.html */
@@ -414,4 +429,61 @@ body {
 	color: #ee003b;
 }
 
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #433e3e;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #fed9d8;
+    border-radius: 10px;
+}
+.badge-bio {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #433e3e;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #90cc79;
+    border-radius: 10px;
+}
 
+h2 {
+	color: #c6c6c6;
+	text-align: center;
+	font-size: 2em;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+	border-radius: .25em;
+	background-color: #ff8c69;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    background-color: #e9e7e5;
+}
