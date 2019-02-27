@@ -168,11 +168,6 @@ i {
 
 
 
-h3 {
-
-}
-
-
 body {
 	margin: 0;
 	padding: 0;
@@ -388,18 +383,16 @@ body {
 }
 
 #photos h1 {
-	
-		color: #3b3939;
-		font-size: 1em;
-		text-align: center;
-		width: 42%;
-		overflow: hidden;
-		border-right: .15em solid orange;
-		white-space: nowrap;
-		margin: 0 auto;
-		letter-spacing: .05em;
-		animation: typing 3.5s steps(10, end), blink-caret 0.75s step-end infinite;
-	
+    color: #f1eeee;
+    font-size: 1.5em;
+    text-align: center;
+    width: 41%;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 39px auto;
+    letter-spacing: .05em;
+    animation: typing 3.5s steps(10, end), blink-caret 0.75s step-end infinite;
 }
 /* gallery */
 
@@ -505,6 +498,18 @@ body {
 	background-position: 30% 60%;
 }
 
+#restaurants .jumbotron h1 {
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    width: 34%;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
 
 
 #restaurants .glyphicon-map-marker:before {
@@ -515,13 +520,104 @@ body {
 /* style contact.html */
 
 #contact .jumbotron {
-	background-image: url("../images/kyle-head-465761-unsplash.jpg");
+	background-image: url("../images/arc.jpg");
 	background-position: 30% 60%;
 }
 
 #contact .glyphicon-send:before {
 	content: "\e171";
 	color: #ee003b;
+}
+
+#contact .glyphicon {
+    color: #705858;
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 22px;
+    margin-top: -4px;
+}
+
+.btn-primary {
+    margin-top: 28px;
+    color: #ffffff;
+    background-color: #360c0c;
+    border-color: #a14e4e;
+}
+
+.btn-primary:hover {
+    margin-top: 28px;
+    color: #ffffff;
+    background-color: #a14e4e;
+    border-color: #360c0c;
+}
+
+
+#contact .glyphicon-send:before {
+    content: "\e171";
+    color: #f3d7df;
+}
+
+#contact .jumbotron h1 {
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    width: 65%;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    color: #bebebe;
+    font-weight: 100;
+	margin-right: 20px;
+	font-size: 1.5em;
+}
+input, select {
+    width: 65%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: #d0c6c6;
+}
+
+::placeholder {
+	font-size: 1em;
+	color: #2c2525!important;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 43px;
+    padding: 10px 18px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #d0c6c6;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
 .badge {
@@ -721,7 +817,7 @@ h2 {
 
 	
 	#carte h1 {
-		width: 45%;
+		width: 72%;
 		
 	}
 
@@ -758,6 +854,31 @@ h2 {
 	#photos h1 {
 		font-size: 0.5em;
 		width: 80%;
+	}
+
+
+	#photos .jumbotron {
+		background-image: url(../images/arc.jpg);
+		background-position: 48% 29%;
+		background-size: 197%;
+		background-clip: border-box;
+		font-size: 1em;
+		text-align: left;
+	}
+
+	.gallery-container p.page-description {
+		text-align: center;
+		margin: 0px auto;
+		font-size: 9px;
+		color: #bebebe;
+	}
+
+	.container.gallery-container {
+		background-color: transparent;
+		color: #35373a;
+		min-height: 100vh;
+		padding: 0px 0px;
+		width: 79%;
 	}
 
 }
