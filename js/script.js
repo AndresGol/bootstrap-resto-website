@@ -8,3 +8,4 @@ yourname="Bob";
 }
 
 document.write("<H2>Moshimoshi, " + yourname + " ! Bienvenu/e à Ginza sushi <\/H2>");
+
