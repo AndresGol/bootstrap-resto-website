@@ -11,8 +11,11 @@ Temps de réalisation
 Du lundi 25/2/2018 au vendredi 29/02/2018.
 
 Ginza Sushi presente un univers...
+
 L’idée graphique épuré, en relation à l’univers Japonais.
+
 Les couleurs dans la gamma du noir et bordeaux.
+
 Description de l’exercice.
 Composition du website
 Il faut au minimum :
