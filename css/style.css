@@ -150,7 +150,7 @@ span {
   font-weight:100;
   color:#e70d0d;
   font-stretch: 4px;
-	font-size: 24px;
+  font-size: 24px;
 	
   
 }
@@ -372,9 +372,7 @@ body {
 	background-clip: border-box; 
 	font-size: 2em;
 	text-align: left;
-	
-	
-	
+		
 }
 
 #photos .glyphicon-picture:before {
@@ -383,17 +381,30 @@ body {
 }
 
 #photos h1 {
-    color: #f1eeee;
-    font-size: 1.5em;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
     text-align: center;
-    width: 41%;
+    width: 30%;
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
     margin: 39px auto;
-    letter-spacing: .05em;
+	letter-spacing: .05em;
+	font-weight: 100;
     animation: typing 3.5s steps(10, end), blink-caret 0.75s step-end infinite;
 }
+
+#photos .container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
 /* gallery */
 
 .container.gallery-container {
@@ -517,6 +528,61 @@ body {
     content: "\e062";
 }
 
+
+
+.map-container-5{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	}
+	.map-container-5 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	}
+
+	.view {
+		background: #000000;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #3b1f1f, #222222); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		width: 100%;
+		height: 150px;
+	}
+
+		.card {
+			background-color: #360c0c;
+		}
+
+		.mb-0 {
+			font-size: 2em;
+			color: #bebebe;
+		}
+
+		.view p {
+			font-size: 1em;
+			color: #bebebe;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* style contact.html */
 
 #contact .jumbotron {
@@ -524,7 +590,7 @@ body {
 	background-position: 30% 60%;
 }
 
-#contact .glyphicon-send:before {
+#contact .glyphicon-send {
 	content: "\e171";
 	color: #ee003b;
 }
@@ -555,7 +621,7 @@ body {
     margin-top: 28px;
     color: #ffffff;
     background-color: #a14e4e;
-    border-color: #360c0c;
+    border-color: #a14e4e;
 }
 
 
@@ -568,7 +634,7 @@ body {
     color: #ffffff;
     font-size: 3em;
     text-align: center;
-    width: 65%;
+    width: 48%;
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
@@ -848,12 +914,23 @@ h2 {
 		padding-left: 0;
 	}
 	
-
-	
+	#restaurants .jumbotron h1 {
+		color: #010101;
+		font-size: 1em;
+		text-align: center;
+		width: 72%;
+		overflow: hidden;
+		border-right: .15em solid orange;
+		white-space: nowrap;
+		margin: 0 auto;
+		letter-spacing: .05em;
+		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+	}
 
 	#photos h1 {
-		font-size: 0.5em;
+		font-size: 1em;
 		width: 80%;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 
 
@@ -880,5 +957,24 @@ h2 {
 		padding: 0px 0px;
 		width: 79%;
 	}
+
+	#contact .jumbotron {
+		background-image: url(../images/arc.jpg);
+		background-position: 51% 60%;
+	}
+
+	#contact .jumbotron h1 {
+		color: #050505;
+		font-size: 1em;
+		text-align: center;
+		width: 101%;
+		overflow: hidden;
+		border-right: .15em solid orange;
+		white-space: nowrap;
+		margin: 0 auto;
+		letter-spacing: .05em;
+		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+	}
+
 
 }
