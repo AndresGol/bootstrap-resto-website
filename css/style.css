@@ -204,7 +204,8 @@ body {
 
 
 .jumbotron h1 {
-    color: #ffffff;
+	color: #ffffff;
+	background-color: #ffffff9F;
     font-size: 3em;
     text-align: center;
     width: 28%;
@@ -270,14 +271,15 @@ body {
 }
 
 .panel p {
-    font-size: 20px;
+    padding-left: 30px;
     text-align: justify;
-	color: #a09d9d;
-	
+    color: #a09d9d;
+    padding-right: 30px;
+    padding-top: 20px;
 }
 
 .panel h2 {
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #c6c6c6;
 	text-align: left;
 	margin-bottom: 20px;
@@ -503,14 +505,15 @@ body {
 
 
 /* style restaurants.html */
-
 #restaurants .jumbotron {
-	background-image: url("../images/chopsticks-close-up-cuisine-271715.jpg");
-	background-position: 30% 60%;
+    background-image: url(../images/restos.jpg);
+    background-position: 55% 58%;
+    background-blend-mode: multiply;
 }
 
 #restaurants .jumbotron h1 {
-    color: #ffffff;
+	color: #000000;
+	background-color: #ffffff9F;
     font-size: 3em;
     text-align: center;
     width: 34%;
@@ -549,14 +552,17 @@ body {
 		background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 		background: linear-gradient(to left, #3b1f1f, #222222); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		width: 100%;
-		height: 150px;
+		height: 250px;
 	}
 
 		.card {
-			background-color: #360c0c;
+			background-color: transparent;
+			margin-bottom: 30px;
 		}
 
 		.mb-0 {
+			padding-top: 30px;
+			padding-bottom: 10px;
 			font-size: 2em;
 			color: #bebebe;
 		}
@@ -564,7 +570,26 @@ body {
 		.view p {
 			font-size: 1em;
 			color: #bebebe;
+			padding-bottom: 30px;
+			padding-left: 30px;
+			padding-right: 30px;
 		}
+
+		.view a {
+
+			font-size: 1em;
+			font-weight: 100;
+
+		}
+
+		.view a:hover {
+
+			font-size: 1em;
+			font-weight: 100;
+			text-decoration: none;
+			
+		}
+
 
 
 
@@ -631,7 +656,8 @@ body {
 }
 
 #contact .jumbotron h1 {
-    color: #ffffff;
+	color: #ffffff;
+	background-color: #ffffff9F;
     font-size: 3em;
     text-align: center;
     width: 48%;
@@ -765,9 +791,95 @@ h2 {
     z-index:1032;
 }
 
+/* footer /ocial */
 
 
+.soc {
+	display: block;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 48px;
+	padding: 4.8rem;
+	text-align: center;
+  }
+  .soc li {
+	display: inline-block;
+	margin: 2px;
+	margin: 0.2rem;
+  }
+  .soc a, .soc svg {
+	display: block;
+  }
+  .soc a {
+	position: relative;
+	height: 96px;
+	height: 7.6rem;
+	width: 96px;
+	width: 7.6rem;
+  }
+  .soc svg {
+	height: 60%;
+	width: 60%;
+  }
+  .soc em {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: -0.75em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  }
+  
+  .icon-8:hover,  .icon-15:hover, .icon-26:hover, .icon-28:hover{
+	/* border-radius: 100%; */
+	color: #bebebe;
+	fill: #bebebe;
+	-webkit-transform: scale(1);
+			transform: scale(1);
+	-webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+	transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+	transition: background-color 0.5s, transform 0.5s ease-out;
+	transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  }
 
+  .icon-8 {
+	color: #375A7D;
+	fill: #375A7D;
+  }
+  .icon-8:hover {
+	background: #375A7D62;
+
+
+  }
+ 
+  .icon-15 {
+	color: #6E5A7D;
+	fill: #6E5A7D;
+  }
+  .icon-15:hover {
+	background: #6E5A7D5b;
+  }
+  
+  .icon-26 {
+	color: #C36E82;
+	fill: #C36E82;
+  }
+  .icon-26:hover {
+	background: #C36E824d;
+  }
+  
+  .icon-28 {
+	color: #37887D;
+	fill: #37887D;
+  }
+  .icon-28:hover {
+	background: #37887D4f;
+  }
+  
 
 
 
