@@ -301,9 +301,9 @@ body {
 }
 
 .btn-custom:hover {
-	background-color: #ee003b;
+	background-color: #ee003b8c;
 	color: #f0efef;
-	border: 1px solid #ee003b;
+	border: 1px solid #ee003b8c;
 	
 }
 
