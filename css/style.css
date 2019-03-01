@@ -2,6 +2,13 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow-x: hidden;
+}
+
 .pen .navbar-toggle {
 	border: none;
 	background: transparent !important;
@@ -106,9 +113,9 @@ background: linear-gradient(to left, #3b1f1f, #222222); /* W3C, IE 10+/ Edge, Fi
 }
 
 .pen .navbar-brand {
-  font-size:24px;
-  font-weight: 400;
-  color: #bebebe;
+	font-size:24px;
+    font-weight: 400;
+	color: #bebebe;
 
 }
 
@@ -118,13 +125,14 @@ background: linear-gradient(to left, #3b1f1f, #222222); /* W3C, IE 10+/ Edge, Fi
 	animation-delay: 3s;
 }
 
-
- @-webkit-keyframes roll-in-right{
-	 0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}
-	 100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
-	 @keyframes roll-in-right{0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}
-	 100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
-
+@-webkit-keyframes roll-in-right {
+	0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}
+	100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}
+}
+@keyframes roll-in-right{
+	0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}
+	100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}
+}
 
 pen .navbar-nav > li > a {
     font-weight: 100;
@@ -146,48 +154,32 @@ pen .navbar-nav > li > a {
 	margin-right: 5px;
 }
 
-
-
-
 span {
-  font-family:helvetica;
-  font-weight:100;
-  color:#e70d0d;
-  font-stretch: 4px;
-  font-size: 24px;
-	
-  
+	font-family:helvetica;
+	font-weight:100;
+	color:#e70d0d;
+	font-stretch: 4px;
+	font-size: 24px;
 }
+
 a {
-  font-family:helvetica;
-  font-weight:900;
-  
-  
+	font-family:helvetica;
+	font-weight:900;
 }
+
 i {
-  color:#ff8c69;
-  font-size:1em;
-  padding-right:0.4em;
+	color:#ff8c69;
+	font-size:1em;
+	padding-right:0.4em;
 }
 
-
-
-body {
-	margin: 0;
-	padding: 0;
-	background-color: black;
-}
-
-  
-  
-  .jumbotron-fluid {
+.jumbotron-fluid {
 	background-image: url("images/shoichiro-kono-583118-unsplash.jpg")!important;
 	padding-right: 0;
 	padding-left: 0;
 	border-radius: 0;
 	background-color: rgb(0, 0, 0);
-  }
-
+}
 
 .jumbotron {
 	background-image: url("../images/nick-karvounis-72018-unsplash.jpg");
@@ -197,15 +189,12 @@ body {
 	background-size:110%;
 	background-repeat: no-repeat;
 	background-position: 19% 100%;
-	height: 250px;
-	
+	height: 250px;	
 }
 
 .display-4 {
 	text-align: center;
 }
-
-
 
 .jumbotron h1 {
 	color: #ffffff;
@@ -227,15 +216,12 @@ body {
 	opacity: 1;}
 	to { width: 30%;
 	opacity: 1; }
-  }
-  
+}  
   /* The typewriter cursor effect */
-  @keyframes blink-caret {
+@keyframes blink-caret {
 	from, to { border-color: transparent }
 	0% { border-color: #ee003b; }
-  }
-
-
+}
 
 .jumbotron p {
 	color: rgb(2, 2, 2);
@@ -243,9 +229,7 @@ body {
 	font-size: 1em;
 	text-align: right;
 	margin-right: 50px;
-	margin-top: 80px;
-	
-	
+	margin-top: 80px;	
 }
 
 .panel-heading {
@@ -262,7 +246,6 @@ body {
     color: dimgray;
     background-color: #222222;
 	border: none;
-	
 }
 
 .panel {
@@ -290,7 +273,6 @@ body {
 	margin-left: 30px;
 }
 
-
 .btn-custom {
 	font-size: 14px;
 	font-weight: 100;
@@ -301,21 +283,18 @@ body {
 	background-color: transparent;
 	border: 1px solid #bebebe;
 	transition: all 0.5s;
-	
 }
 
 .btn-custom:hover {
 	background-color: #ee003b8c;
 	color: #f0efef;
-	border: 1px solid #ee003b8c;
-	
+	border: 1px solid #ee003b8c;	
 }
 
 .bg {
 	background-color: #222222;
 	margin: 0px;
 	height: 200px;
-	
 }
 
 .pizza {
@@ -345,25 +324,19 @@ body {
     cursor: default;
 }
 
-
-
 /* style carte.html */
-
 #carte .jumbotron {
 	background-image: url("../images/chopsticks-close-up-cuisine-271715.jpg");
 	background-position: 20% 60%;
 	background-size: 100%;
 	font-size: 1.5em;
-	
 }
 
 #carte h1 {
-    width: 17%;
+    width: 31%;
     font-size: 2em;
     margin-top: 55px;
 }
-
-
 
 #carte .glyphicon-leaf:before {
     color: #ee003b;
@@ -377,8 +350,7 @@ body {
 	background-size: 100%;
 	background-clip: border-box; 
 	font-size: 2em;
-	text-align: left;
-		
+	text-align: left;		
 }
 
 #photos .glyphicon-picture:before {
@@ -409,10 +381,7 @@ body {
     padding-right: 15px;
 }
 
-
-
 /* gallery */
-
 .container.gallery-container {
     background-color:transparent;
     color: #35373a;
@@ -434,6 +403,7 @@ body {
     color: #bebebe;
     font-weight: 100;
 }
+
 .tz-gallery {
     padding: 30px;
 }
@@ -451,8 +421,8 @@ body {
 
 .tz-gallery .lightbox:before {
     position: absolute;
-    top: 50%;
-    left: 50%;
+	top: 38%;
+    left: 46%;
     margin-top: -13px;
     margin-left: -13px;
     opacity: 0;
@@ -464,7 +434,6 @@ body {
     z-index: 9000;
     transition: 0.4s;
 }
-
 
 .tz-gallery .lightbox:after {
     position: absolute;
@@ -486,27 +455,6 @@ body {
 .baguetteBox-button {
     background-color: transparent !important;
 }
-
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* style restaurants.html */
 #restaurants .jumbotron {
@@ -530,13 +478,10 @@ body {
     animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
-
 #restaurants .glyphicon-map-marker:before {
     color: #ee003b;
     content: "\e062";
 }
-
-
 
 .map-container-5{
 	overflow:hidden;
@@ -552,60 +497,48 @@ body {
 	position:absolute;
 	}
 
-	.view {
-		background: #000000;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to left, #3b1f1f, #222222); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-		width: 100%;
-		height: 250px;
+.view {
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #3b1f1f, #222222); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 100%;
+	height: 274px;
 	}
 
-		.card {
-			background-color: transparent;
-			margin-bottom: 30px;
-		}
+.card {
+	background-color: transparent;
+	margin-bottom: 30px;
+}
 
-		.mb-0 {
-			padding-top: 30px;
-			padding-bottom: 10px;
-			font-size: 2em;
-			color: #bebebe;
-		}
+.mb-0 {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 2em;
+	color: #bebebe;
+}
 
-		.view p {
-			font-size: 1em;
-			color: #bebebe;
-			padding-bottom: 30px;
-			padding-left: 30px;
-			padding-right: 30px;
-		}
+.view p {
+	font-size: 1em;
+	color: #bebebe;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
 
-		.view a {
+.view a {
 
-			font-size: 1em;
-			font-weight: 100;
+	font-size: 1em;
+	font-weight: 100;
 
-		}
+}
 
-		.view a:hover {
+.view a:hover {
 
-			font-size: 1em;
-			font-weight: 100;
-			text-decoration: none;
-			
-		}
-
-
-
-
-
-
-
-
-
-
-
-
+	font-size: 1em;
+	font-weight: 100;
+	text-decoration: none;
+	
+}
 
 /* style contact.html */
 
@@ -668,7 +601,6 @@ body {
     animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
-
 label {
     display: inline-block;
     max-width: 100%;
@@ -678,6 +610,7 @@ label {
 	margin-right: 20px;
 	font-size: 1.5em;
 }
+
 input, select {
     width: 65%;
     font-family: inherit;
@@ -690,7 +623,6 @@ input, select {
 	font-size: 1em;
 	color: #2c2525!important;
 }
-
 
 .form-control {
     display: block;
@@ -725,6 +657,7 @@ input, select {
     background-color: #fed9d8;
     border-radius: 10px;
 }
+
 .badge-bio {
     display: inline-block;
     min-width: 10px;
@@ -770,7 +703,6 @@ h2 {
     background-color: #e9e7e5;
 }
 
-
 #lightbox .modal-content {
     display: inline-block;
     text-align: center;   
@@ -791,8 +723,6 @@ h2 {
 }
 
 /* footer /ocial */
-
-
 .soc {
 	display: block;
 	font-size: 0;
@@ -801,27 +731,31 @@ h2 {
 	padding: 48px;
 	padding: 4.8rem;
 	text-align: center;
-  }
-  .soc li {
+}
+.soc li {
 	display: inline-block;
 	margin: 2px;
 	margin: 0.2rem;
-  }
-  .soc a, .soc svg {
+}
+
+.soc a, .soc svg {
 	display: block;
-  }
-  .soc a {
+}
+
+.soc a {
 	position: relative;
 	height: 96px;
 	height: 7.6rem;
 	width: 96px;
 	width: 7.6rem;
-  }
-  .soc svg {
+}
+
+.soc svg {
 	height: 60%;
 	width: 60%;
-  }
-  .soc em {
+}
+
+.soc em {
 	font-size: 14px;
 	line-height: 1.5;
 	margin-top: -0.75em;
@@ -831,9 +765,9 @@ h2 {
 	right: 0;
 	bottom: 0;
 	left: 0;
-  }
-  
-  .icon-8:hover,  .icon-15:hover, .icon-26:hover, .icon-28:hover{
+}
+
+.icon-8:hover,  .icon-15:hover, .icon-26:hover, .icon-28:hover{
 	/* border-radius: 100%; */
 	color: #bebebe;
 	fill: #bebebe;
@@ -843,447 +777,484 @@ h2 {
 	transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
 	transition: background-color 0.5s, transform 0.5s ease-out;
 	transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
-  }
+}
 
-  .icon-8 {
+.icon-8 {
 	color: #375A7D;
 	fill: #375A7D;
-  }
-  .icon-8:hover {
+}
+
+.icon-8:hover {
 	background: #375A7D62;
+}
 
-
-  }
- 
-  .icon-15 {
+.icon-15 {
 	color: #6E5A7D;
 	fill: #6E5A7D;
-  }
-  .icon-15:hover {
+}
+
+.icon-15:hover {
 	background: #6E5A7D5b;
-  }
-  
-  .icon-26 {
+}
+
+.icon-26 {
 	color: #C36E82;
 	fill: #C36E82;
-  }
-  .icon-26:hover {
+}
+
+.icon-26:hover {
 	background: #C36E824d;
-  }
-  
-  .icon-28 {
+}
+
+.icon-28 {
 	color: #37887D;
 	fill: #37887D;
-  }
-  .icon-28:hover {
+}
+
+.icon-28:hover {
 	background: #37887D4f;
-  }
-  
+}  
 
-  .sign {
+.sign {
 	display:none;
-  }
-
-  h6 {
-	  color: rgb(48, 184, 121);
-	  font-size: 2.5em;
-	  
-  }
-
-  .ond h6 {
-	color: rgb(119, 105, 80);
-	font-size: 2.5em;
-	
-}
-
-
-
-  
-
-/* media query */
-
-
-
-@media only screen and (max-width: 992px){
-
-	h2 {
-		font-size: 1em;
-	}
-
-
-
-
-
-	.jumbotron h1 {
-    font-family: helvetica;
-    font-weight: 100;
-    color: #656060;
-    text-transform: lowercase;
-    font-size: 1.5em;
-    margin-top: 50px;
-    text-align: center;
-    margin-left: 214px;
-    background-color: #ffffffc4;
-    background-size: 30%;
-    width: 32%;
-    padding: 12px;
-}
-
-	#carte h1 {
-		width: 40%;
-		font-size: 1em;
-		margin-top: 55px;
-	}
-
-
-
-	#photos h1 {
-		font-size: 1em;
-		width: 55%;
-		color: #2a2727;
-		background-color: #ffffff8a;
-	}
-
-
-	#contact .jumbotron h1 {
-		color: #ffffff;
-		background-color: #ffffff9F;
-		font-size: 1em;
-		text-align: center;
-		width: 48%;
-		overflow: hidden;
-		border-right: .15em solid orange;
-		white-space: nowrap;
-		margin: 0 auto;
-		letter-spacing: .05em;
-		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
-	}
-
-   .list-group-item {
-    font-size: 1em;
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    background-color: #e9e7e5;
-}
-
-#index h2 {
-	font-size: 2em;
-
-}
-
-
-#restaurants .jumbotron h1 {
-    color: #000000;
-    background-color: #ffffff9F;
-    font-size: 2em;
-    font-size: em;
-    text-align: center;
-    width: 44%;
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .05em;
-    animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
-}
-
-
-#restaurants .Horaires {
-    width: 60%;
 }
 
 h6 {
-    color: rgb(48, 184, 121);
-    font-size: 1.5em;
+	color: rgb(48, 184, 121);
+	font-size: 2.5em;
 }
 
-#contact .jumbotron {
-    background-image: url(../images/arc.jpg);
-    background-position: 34% 38%;
+.ond h6 {
+	color: rgb(119, 105, 80);
+	font-size: 2.5em;
 }
 
+/* media query */
+@media only screen and (max-width: 992px){
 
-#contact .jumbotron h1 {
-    color: #ffffff;
-    margin-top: 71px;
-    background-color: #ffffff47;
-    font-size: 1.5em;
-    text-align: center;
-    width: 61%;
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    letter-spacing: .05em;
-    animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+		h2 {
+			font-size: 1em;
+		}
+
+		.jumbotron h1 {
+			font-family: helvetica;
+			font-weight: 100;
+			color: #656060;
+			text-transform: lowercase;
+			font-size: 1.5em;
+			margin-top: 50px;
+			text-align: center;
+			margin-left: 214px;
+			background-color: #ffffffc4;
+			background-size: 30%;
+			width: 32%;
+			padding: 12px;
+		}
+
+		#carte h1 {
+			width: 40%;
+			font-size: 1em;
+			margin-top: 55px;
+		}
+
+		#photos h1 {
+			font-size: 1em;
+			width: 55%;
+			color: #2a2727;
+			background-color: #ffffff8a;
+		}
+
+		#contact .jumbotron h1 {
+			color: #ffffff;
+			background-color: #ffffff9F;
+			font-size: 1em;
+			text-align: center;
+			width: 48%;
+			overflow: hidden;
+			border-right: .15em solid orange;
+			white-space: nowrap;
+			margin: 0 auto;
+			letter-spacing: .05em;
+			animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+		}
+
+		.list-group-item {
+			font-size: 1em;
+			position: relative;
+			display: block;
+			padding: 10px 15px;
+			margin-bottom: -1px;
+			background-color: #ffffff;
+			border: 1px solid #dddddd;
+			background-color: #e9e7e5;
+		}
+
+		#index h2 {
+			font-size: 2em;
+		}
+
+		#restaurants .jumbotron h1 {
+			color: #000000;
+			background-color: #ffffff9F;
+			font-size: 2em;
+			font-size: em;
+			text-align: center;
+			width: 77%;
+			overflow: hidden;
+			border-right: .15em solid orange;
+			white-space: nowrap;
+			margin: 0 auto;
+			letter-spacing: .05em;
+			animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+		}
+
+		#restaurants .Horaires {
+			width: 60%;
+		}
+
+		h6 {
+			color: rgb(48, 184, 121);
+			font-size: 1.5em;
+		}
+
+		#contact .jumbotron {
+			background-image: url(../images/arc.jpg);
+			background-position: 34% 38%;
+		}
+
+		#contact .jumbotron h1 {
+			color: #ffffff;
+			margin-top: 71px;
+			background-color: #ffffff47;
+			font-size: 1.5em;
+			text-align: center;
+			width: 61%;
+			overflow: hidden;
+			border-right: .15em solid orange;
+			white-space: nowrap;
+			letter-spacing: .05em;
+			animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+		}
+
+		.view {
+			background: #000000;
+			background: -webkit-linear-gradient(to left, #434343, #000000);
+			background: linear-gradient(to left, #3b1f1f, #222222);
+			width: 100%;
+			height: 295px;
+		}
+
+		label {
+			display: inline-block;
+			max-width: 100%;
+			margin-bottom: 5px;
+			color: #bebebe;
+			font-weight: 100;
+			margin-right: 20px;
+			font-size: 1em;
+		}
+
+		::placeholder {
+			font-size: 1em;
+			color: #a89c9c!important;
+		}
+
+		.view p {
+			font-size: 1em;
+			color: #bebebe;
+			padding-left: 30px;
+			padding-right: 30px;
+			line-height: 25px;
+			padding-top: 15px;
+			margin-bottom: -17px;
+		}
+
+		.mb-0 {
+			padding-top: 30px;
+			padding-bottom: 10px;
+			font-size: 1.8em;
+			color: #bebebe;
+		}
+		
+		.gallery-container p.page-description {
+			text-align: center;
+			margin: 25px auto;
+			font-size: 1em;
+			color: #bebebe;
+		}
+
 }
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
 
 
 
 @media only screen and (max-width: 429px){
 
-	.panel p {
-		font-size: 14px;
-		text-align: justify;
-		color: #a09d9d;
-	}
+		.panel p {
+			font-size: 0.8em;
+			padding-left: 15px;
+			text-align: justify;
+			color: #a09d9d;
+			padding-right: 20px;
+			padding-top: 0px;
+		}
 
-	.panel h2 {
-		font-size: 1em;
-		color: #c6c6c6;
-		text-align: left;
-		margin-bottom: 5px;
-		margin-left: 20px;
-	}
+		.panel h2 {
+			font-size: 1em;
+			color: #c6c6c6;
+			text-align: left;
+			margin-bottom: 5px;
+			margin-left: 20px;
+		}
 
-	.jumbotron {
-		background-image: url(../images/nick-karvounis-72018-unsplash.jpg);
-		color: rgb(255, 255, 255);
-		font-family: Helvetica, Arial, sans-serif;
-		background-size: 146%;
-		background-repeat: no-repeat;
-		background-position: 57% 39%;
-		height: 250px;
-	}
+		.jumbotron {
+			background-image: url(../images/nick-karvounis-72018-unsplash.jpg);
+			color: rgb(255, 255, 255);
+			font-family: Helvetica, Arial, sans-serif;
+			background-size: 146%;
+			background-repeat: no-repeat;
+			background-position: 57% 39%;
+			height: 250px;
+		}
 
-	.btn-custom {
-		font-size: 11px;
-		font-weight: 100;
-		margin-top: 13px;
-		margin-left: 68px;
-		margin-bottom: 66px;
-		color: #f0efef;
-		background-color: transparent;
-		border: 1px solid #636363;
-		transition: all 0.5s;
-	}
+		.btn-custom {
+			font-size: 11px;
+			font-weight: 100;
+			margin-top: 28px;
+			margin-left: 54px;
+			margin-bottom: 66px;
+			color: #f0efef;
+			background-color: transparent;
+			border: 1px solid #636363;
+			transition: all 0.5s;
+		}
 
-	h2 {
-		font-size: 1em;
-	}
-	
-	#second_pic {
-		margin-bottom: 20px;
-	}
-
-	.jumbotron h1 {
-		font-family: 'Major Mono Display', monospace;
-		font-weight: 100;
-		color: #200808;
-		text-transform: lowercase;
-		font-size: 1em;
-		margin-top: 50px; 
-		text-align: center;
-		margin-left: 5px;
-		background-color:#ffffffc4;
-		background-size: 30%;
-		width: 80%;
-		padding: 10px;
-	}
-
-	
-	#carte h1 {
-		width: 72%;
+		h2 {
+			font-size: 1em;
+		}
 		
-	}
+		#second_pic {
+			margin-bottom: 20px;
+		}
 
-	#carte .jumbotron {
-		background-image: url(../images/chopsticks-close-up-cuisine-271715.jpg);
-		background-position: 56% 78%;
-		background-size: 150%;
-		font-size: 1.3em;
-	}
+		.jumbotron h1 {
+			font-family: 'Major Mono Display', monospace;
+			font-weight: 100;
+			color: #200808;
+			text-transform: lowercase;
+			font-size: 1em;
+			margin-top: 50px; 
+			text-align: center;
+			margin-left: 5px;
+			background-color:#ffffffc4;
+			background-size: 30%;
+			width: 80%;
+			padding: 10px;
+		}
 
-	.list-group-item {
-		font-size: 0.7em;
-		position: relative;
-		display: block;
-		padding: 10px 15px;
-		margin-bottom: -1px;
-		background-color: #ffffff;
-		border: 1px solid #dddddd;
-		background-color: #e9e7e5;
-	}
+		
+		#carte h1 {
+			width: 72%;
+			
+		}
 
-	.badge-bio {
-		font-size: 8px;
-	}
+		#carte .jumbotron {
+			background-image: url(../images/chopsticks-close-up-cuisine-271715.jpg);
+			background-position: 56% 78%;
+			background-size: 150%;
+			font-size: 1.3em;
+		}
 
-	.list-group {
-		margin-bottom: 0px;
-		padding-left: 0;
-	}
-	
-	#restaurants .jumbotron {
-		background-image: url(../images/restos.jpg);
-		background-position: 27% 61%;
-		background-blend-mode: multiply;
-		background-size: 171%;
-	}
+		
 
-	#restaurants .jumbotron h1 {
-		color: #010101;
-		font-size: 1em;
-		text-align: center;
-		width: 111%;
-		overflow: hidden;
-		border-right: .15em solid orange;
-		white-space: nowrap;
-		margin: 0 auto;
-		letter-spacing: .05em;
-		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
-		margin-top: 61px;
-	}
+		.badge-bio {
+			font-size: 8px;
+		}
 
-	h6 {
-		color: rgb(48, 184, 121);
-		font-size: 1.5em;
-	}
+		.list-group {
+			margin-bottom: 0px;
+			padding-left: 0;
+		}
+		
+		#restaurants .jumbotron {
+			background-image: url(../images/restos.jpg);
+			background-position: 27% 61%;
+			background-blend-mode: multiply;
+			background-size: 171%;
+		}
 
+		#restaurants .jumbotron h1 {
+			color: #010101;
+			font-size: 1em;
+			text-align: center;
+			width: 111%;
+			overflow: hidden;
+			border-right: .15em solid orange;
+			white-space: nowrap;
+			margin: 0 auto;
+			letter-spacing: .05em;
+			animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+			margin-top: 61px;
+		}
 
+		h6 {
+			color: rgb(48, 184, 121);
+			font-size: 1.5em;
+		}
 
+		.view {
+			background: #000000;
+			background: -webkit-linear-gradient(to left, #434343, #000000);
+			background: linear-gradient(to left, #3b1f1f, #222222);
+			width: 100%;
+			height: 382px;
+		}
 
-	.view {
-		background: #000000;
-		background: -webkit-linear-gradient(to left, #434343, #000000);
-		background: linear-gradient(to left, #3b1f1f, #222222);
-		width: 100%;
-		height: 382px;
-	}
+		#restaurants .col-xs-12 {
+			width: 92%;
+		}
 
-	#restaurants .col-xs-12 {
-		width: 92%;
-   }
+		.list-group-item {
+			font-size: 0.7em;
+			position: relative;
+			display: block;
+			padding: 10px 15px;
+			margin-bottom: -1px;
+			background-color: #ffffff;
+			border: 1px solid #dddddd;
+			background-color: #e9e7e5;
+		}
+		.soc {
 
-   .list-group-item {
-    font-size: 1em;
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    background-color: #e9e7e5;
-}
-.soc {
-    margin-top: 12px;
-    display: block;
-    font-size: 0;
-    list-style: none;
-    margin: 0;
-    padding: 48px;
-    padding: 4.8rem;
-    text-align: center;
-    padding-top: 9px;
-}
+			margin-top: 12px;
+			display: block;
+			font-size: 0;
+			list-style: none;
+			margin: 0;
+			padding: 48px;
+			padding: 1.8rem;
+				padding-top: 1.8rem;
+			text-align: center;
+			padding-top: 9px;
+		
+		}
 
+		.soc a {
+			position: relative;
+			height: 96px;
+			height: 7.6rem;
+			width: 96px;
+			width: 5rem;
+		}
 
+		#photos h1 {
 
+			color: #000000;
+			background-color: #ffffff9F;
+			font-size: 1em;
+			font-size: em;
+			text-align: center;
+			width: 81%;
+			overflow: hidden;
+			border-right: .15em solid orange;
+			white-space: nowrap;
+			margin: 0 auto;
+			letter-spacing: .05em;
+			animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+		
+		}
 
+		#photos .jumbotron {
+			background-image: url(../images/arc.jpg);
+			background-position: 48% 29%;
+			background-size: 197%;
+			background-clip: border-box;
+			font-size: 1em;
+			text-align: left;
+		}
 
-.soc a {
-    position: relative;
-    height: 96px;
-    height: 7.6rem;
-    width: 96px;
-    width: 5rem;
-}
+		.gallery-container p.page-description {
+			text-align: center;
+			margin: 0px auto;
+			font-size: 9px;
+			color: #bebebe;
+		}
 
+		.container.gallery-container {
+			background-color: transparent;
+			color: #35373a;
+			min-height: 100vh;
+			padding: 0px 0px;
+			width: 79%;
+		}
 
+		#contact .jumbotron {
+			background-image: url(../images/arc.jpg);
+			background-position: 51% 60%;
+		}
 
+		#contact .jumbotron h1 {
+			color: #fff7f7;
+			font-size: 0.7em;
+			text-align: center;
+			width: 101%;
+			overflow: hidden;
+			border-right: .15em solid orange;
+			white-space: nowrap;
+			margin: 0 auto;
+			letter-spacing: .05em;
+			animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+		}
 
+		#index h2 {
+			font-size: 1em;
+		}
 
+		.view p {
+			line-height: 18px;
+			font-size: 0.9em;
+			color: #bebebe;
+			padding-bottom: 30px;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 10px;
+		}
 
+		label {
+			display: inline-block;
+			max-width: 100%;
+			margin-bottom: 5px;
+			color: #bebebe;
+			font-weight: 100;
+			margin-right: 20px;
+			font-size: 0.9em;
+		}
 
+		::placeholder {
+			font-size: 0.9em;
+			color: #797070!important;
+		}
 
+		.tz-gallery .lightbox::before {
+			position: absolute;
+			top: 47%;
+			left: 48%;
+			margin-top: -13px;
+			margin-left: -13px;
+			opacity: 0;
+			color: #ee003b94;
+			font-size: 2em;
+			font-family: 'Glyphicons Halflings';
+			content: '\e003';
+			pointer-events: none;
+			z-index: 9000;
+			transition: 0.4s;
+		}
 
-
-
-
-
-	/* #photos h1 {
-		font-size: 1em;
-		width: 80%;
-		font-family: Arial, Helvetica, sans-serif;
-	} */
-
-	#photos h1 {
-		color: #000000;
-		background-color: #ffffff9F;
-		font-size: 2em;
-		font-size: em;
-		text-align: center;
-		width: 44%;
-		overflow: hidden;
-		border-right: .15em solid orange;
-		white-space: nowrap;
-		margin: 0 auto;
-		letter-spacing: .05em;
-		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
-	}
-
-
-
-	#photos .jumbotron {
-		background-image: url(../images/arc.jpg);
-		background-position: 48% 29%;
-		background-size: 197%;
-		background-clip: border-box;
-		font-size: 1em;
-		text-align: left;
-	}
-
-	.gallery-container p.page-description {
-		text-align: center;
-		margin: 0px auto;
-		font-size: 9px;
-		color: #bebebe;
-	}
-
-	.container.gallery-container {
-		background-color: transparent;
-		color: #35373a;
-		min-height: 100vh;
-		padding: 0px 0px;
-		width: 79%;
-	}
-
-	#contact .jumbotron {
-		background-image: url(../images/arc.jpg);
-		background-position: 51% 60%;
-	}
-
-	#contact .jumbotron h1 {
-		color: #050505;
-		font-size: 1em;
-		text-align: center;
-		width: 101%;
-		overflow: hidden;
-		border-right: .15em solid orange;
-		white-space: nowrap;
-		margin: 0 auto;
-		letter-spacing: .05em;
-		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
-	}
-
+		.mb-0 {
+			padding-top: 30px;
+			padding-bottom: 10px;
+			font-size: 1.5em;
+			color: #bebebe;
+		}
 
 }
