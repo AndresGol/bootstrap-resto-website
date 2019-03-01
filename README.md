@@ -1,8 +1,12 @@
 # restaurant-css-framework
 
 
-Travail final en ligne:
+## Travail final en ligne:
 [Ginza Sushi](https://andresgol.github.io/bootstrap-resto-website/index.html)
+
+## Aperçu
+
+<img src="https://github.com/AndresGol/bootstrap-resto-website/blob/master/images/screenshot.jpeg">
 
 Website crée avec Bootstrap 4.
 
@@ -16,8 +20,6 @@ Du lundi 25/2/2018 au vendredi 29/02/2018.
 Ginza Sushi presente un univers graphique épuréé, en relation avec l’univers Japonais.
 
 Les couleurs étaient choisies dans la gamme du noir et du bordeaux.
-
-
 
 
 
