@@ -2,8 +2,6 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-
-
 .pen .navbar-toggle {
 	border: none;
 	background: transparent !important;
@@ -294,7 +292,7 @@ body {
 
 
 .btn-custom {
-	font-size: 20px;
+	font-size: 14px;
 	font-weight: 100;
 	margin-top: 50px;
 	margin-left: 50px;
@@ -458,8 +456,8 @@ body {
     margin-top: -13px;
     margin-left: -13px;
     opacity: 0;
-    color: #fff;
-    font-size: 26px;
+    color: #ee003b94;
+    font-size: 3em;
     font-family: 'Glyphicons Halflings';
     content: '\e003';
     pointer-events: none;
@@ -512,9 +510,10 @@ body {
 
 /* style restaurants.html */
 #restaurants .jumbotron {
-    background-image: url(../images/restos.jpg);
-    background-position: 55% 58%;
+    background-image: url(../images/ricardo-jimenez-1371478-unsplash.jpg);
+    background-position: 58% 54%;
     background-blend-mode: multiply;
+    background-size: 101%;
 }
 
 #restaurants .jumbotron h1 {
