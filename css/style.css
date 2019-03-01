@@ -1,3 +1,9 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
 .pen .navbar-toggle {
 	border: none;
 	background: transparent !important;
@@ -426,10 +432,10 @@ body {
 .gallery-container p.page-description {
     text-align: center;
     margin: 25px auto;
-    font-size: 24px;
+    font-size: 1.5em;
     color: #bebebe;
+    font-weight: 100;
 }
-
 .tz-gallery {
     padding: 30px;
 }
@@ -905,20 +911,24 @@ h2 {
 		font-size: 1em;
 	}
 
+
+
+
+
 	.jumbotron h1 {
-		font-family: 'Major Mono Display', monospace;
-		font-weight: 100;
-		color: #200808;
-		text-transform: lowercase;
-		font-size: 1em;
-		margin-top: 50px; 
-		text-align: center;
-		margin-left: 5px;
-		background-color:#ffffffc4;
-		background-size: 30%;
-		width: 45%;
-		padding: 10px;
-	}
+    font-family: helvetica;
+    font-weight: 100;
+    color: #656060;
+    text-transform: lowercase;
+    font-size: 1.5em;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 214px;
+    background-color: #ffffffc4;
+    background-size: 30%;
+    width: 32%;
+    padding: 12px;
+}
 
 	#carte h1 {
 		width: 40%;
@@ -929,10 +939,11 @@ h2 {
 
 
 	#photos h1 {
-		font-size: 0.7em;
-		width: 50%;
+		font-size: 1em;
+		width: 55%;
+		color: #2a2727;
+		background-color: #ffffff8a;
 	}
-
 
 
 	#contact .jumbotron h1 {
@@ -948,6 +959,75 @@ h2 {
 		letter-spacing: .05em;
 		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
 	}
+
+   .list-group-item {
+    font-size: 1em;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    background-color: #e9e7e5;
+}
+
+#index h2 {
+	font-size: 2em;
+
+}
+
+
+#restaurants .jumbotron h1 {
+    color: #000000;
+    background-color: #ffffff9F;
+    font-size: 2em;
+    font-size: em;
+    text-align: center;
+    width: 44%;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+
+#restaurants .Horaires {
+    width: 60%;
+}
+
+h6 {
+    color: rgb(48, 184, 121);
+    font-size: 1.5em;
+}
+
+#contact .jumbotron {
+    background-image: url(../images/arc.jpg);
+    background-position: 34% 38%;
+}
+
+
+#contact .jumbotron h1 {
+    color: #ffffff;
+    margin-top: 71px;
+    background-color: #ffffff47;
+    font-size: 1.5em;
+    text-align: center;
+    width: 61%;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .05em;
+    animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1088,13 +1168,46 @@ h2 {
 		background: -webkit-linear-gradient(to left, #434343, #000000);
 		background: linear-gradient(to left, #3b1f1f, #222222);
 		width: 100%;
-		height: 340px;
+		height: 382px;
 	}
 
 	#restaurants .col-xs-12 {
 		width: 92%;
    }
 
+   .list-group-item {
+    font-size: 1em;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    background-color: #e9e7e5;
+}
+.soc {
+    margin-top: 12px;
+    display: block;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 48px;
+    padding: 4.8rem;
+    text-align: center;
+    padding-top: 9px;
+}
+
+
+
+
+
+.soc a {
+    position: relative;
+    height: 96px;
+    height: 7.6rem;
+    width: 96px;
+    width: 5rem;
+}
 
 
 
@@ -1108,12 +1221,27 @@ h2 {
 
 
 
-
-	#photos h1 {
+	/* #photos h1 {
 		font-size: 1em;
 		width: 80%;
 		font-family: Arial, Helvetica, sans-serif;
+	} */
+
+	#photos h1 {
+		color: #000000;
+		background-color: #ffffff9F;
+		font-size: 2em;
+		font-size: em;
+		text-align: center;
+		width: 44%;
+		overflow: hidden;
+		border-right: .15em solid orange;
+		white-space: nowrap;
+		margin: 0 auto;
+		letter-spacing: .05em;
+		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
 	}
+
 
 
 	#photos .jumbotron {
