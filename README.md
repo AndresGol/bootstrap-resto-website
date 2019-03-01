@@ -1,6 +1,9 @@
 # restaurant-css-framework
 
 
+Travail final en ligne:
+[Ginza Sushi](https://andresgol.github.io/bootstrap-resto-website/index.html)
+
 Website crée avec Bootstrap 4.
 
 Conception graphique et code: Andrés Goldestein
@@ -10,11 +13,11 @@ Premier projet avec le framework css Bootstrap combiné avec JavaScript, Font Aw
 Temps de réalisation
 Du lundi 25/2/2018 au vendredi 29/02/2018.
 
-Ginza Sushi presente un univers...
+Ginza Sushi presente un univers graphique épuréé, en relation avec l’univers Japonais.
 
-L’idée graphique épuréé, en relation à l’univers Japonais.
+Les couleurs étaient choisies dans la gamme du noir et du bordeaux.
 
-Les couleurs dans la gamma du noir et bordeaux.
+
 
 
 
