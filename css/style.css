@@ -875,7 +875,25 @@ h2 {
   }
   
 
+  .sign {
+	display:none;
+  }
 
+  h6 {
+	  color: rgb(48, 184, 121);
+	  font-size: 2.5em;
+	  
+  }
+
+  .ond h6 {
+	color: rgb(119, 105, 80);
+	font-size: 2.5em;
+	
+}
+
+
+
+  
 
 /* media query */
 
@@ -1036,18 +1054,60 @@ h2 {
 		padding-left: 0;
 	}
 	
+	#restaurants .jumbotron {
+		background-image: url(../images/restos.jpg);
+		background-position: 27% 61%;
+		background-blend-mode: multiply;
+		background-size: 171%;
+	}
+
 	#restaurants .jumbotron h1 {
 		color: #010101;
 		font-size: 1em;
 		text-align: center;
-		width: 72%;
+		width: 111%;
 		overflow: hidden;
 		border-right: .15em solid orange;
 		white-space: nowrap;
 		margin: 0 auto;
 		letter-spacing: .05em;
 		animation: typing 2.5s steps(30, end), blink-caret 0.75s step-end infinite;
+		margin-top: 61px;
 	}
+
+	h6 {
+		color: rgb(48, 184, 121);
+		font-size: 1.5em;
+	}
+
+
+
+
+	.view {
+		background: #000000;
+		background: -webkit-linear-gradient(to left, #434343, #000000);
+		background: linear-gradient(to left, #3b1f1f, #222222);
+		width: 100%;
+		height: 340px;
+	}
+
+	#restaurants .col-xs-12 {
+		width: 92%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	#photos h1 {
 		font-size: 1em;
